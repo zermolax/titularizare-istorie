@@ -34,6 +34,12 @@ strong, b {
   font-weight: 700;
 }
 
+/* Text italic cu culoare portocalie mai puțin intensă */
+em, i {
+  color: #f29e74; /* Portocaliu mai puțin intens decât h1 (ee6c4d) */
+  font-style: italic;
+}
+
 .container-lg {
   display: flex;
   max-width: 1500px;
