@@ -1,79 +1,255 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Tema inspirată de Obsidian Dark cu navigare îmbunătățită */
 
-/* CSS personalizat pentru aspectul general */
-body {
-  background-color: #f5f5f5;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
+/* Variabile de culoare */
+:root {
+  --background-primary: #1e1e1e;
+  --background-secondary: #252525;
+  --text-normal: #dcddde;
+  --text-muted: #999;
+  --text-accent: #7f9cf5;
+  --interactive-accent: #7f6df2;
+  --h1-color: #ee6c4d;
+  --h2-color: #3d9eff;
+  --h3-color: #63c9a6;
+  --border-color: #333;
+  --code-background: #2d2d2d;
 }
 
-/* Stilizare pentru headere */
-h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;
+/* Stiluri generale */
+body {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container-lg {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--background-secondary);
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-color);
+}
+
+.sidebar a {
+  color: var(--text-normal);
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: rgba(127, 157, 245, 0.1);
+  color: var(--interactive-accent);
+}
+
+.sidebar-heading {
+  color: var(--text-accent);
+  font-size: 1.2em;
   font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Conținut principal */
+.main-content {
+  margin-left: 340px;
+  padding: 30px;
+  max-width: 1000px;
+}
+
+/* Headere */
+h1, h2, h3, h4, h5, h6 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+  font-weight: 600;
+  scroll-margin-top: 70px; /* Pentru navigare ancorată */
 }
 
 h1 {
-  font-size: 2.2em;
-  border-bottom: 2px solid #eaecef;
-  padding-bottom: 0.3em;
+  font-size: 2em;
+  color: var(--h1-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 1.8em;
-  border-bottom: 1px solid #eaecef;
+  font-size: 1.7em;
+  color: var(--h2-color);
 }
 
-/* Stilizare pentru callouts similare cu cele din Obsidian */
+h3 {
+  font-size: 1.4em;
+  color: var(--h3-color);
+}
+
+/* Liste */
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Cod și blocuri de cod */
+code {
+  background-color: var(--code-background);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+pre {
+  background-color: var(--code-background);
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+/* Callouts personalizate */
 .callout {
-  padding: 1em;
-  margin: 1em 0;
+  padding: 15px;
+  margin: 15px 0;
   border-left: 4px solid;
   border-radius: 3px;
+  background-color: rgba(127, 157, 245, 0.05);
 }
 
-.callout-info {
-  background-color: #e8f4f8;
-  border-left-color: #209cee;
+.callout.info {
+  border-left-color: var(--h2-color);
 }
 
-.callout-warning {
-  background-color: #fff5eb;
-  border-left-color: #ff9800;
+.callout.warning {
+  border-left-color: #e9c46a;
 }
 
-.callout-important {
-  background-color: #feecf0;
-  border-left-color: #ff3860;
+.callout.important {
+  border-left-color: var(--h1-color);
 }
 
-/* Stilizare pentru tabele */
+/* Tabele */
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1em 0;
+  margin: 20px 0;
 }
 
 th, td {
-  padding: 0.75em;
+  padding: 12px;
   text-align: left;
-  border: 1px solid #ddd;
+  border-bottom: 1px solid var(--border-color);
 }
 
 th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+  color: var(--text-accent);
+  background-color: rgba(127, 157, 245, 0.05);
 }
 
-/* Stilizare pentru blocuri de cod */
-code {
-  background-color: #f6f8fa;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-family: monospace;
+/* Navigare în document */
+.toc {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 280px;
+  background-color: var(--background-secondary);
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.toc-title {
+  color: var(--text-accent);
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.toc ul {
+  padding-left: 15px;
+}
+
+.toc a {
+  color: var(--text-muted);
+  text-decoration: none;
+  display: block;
+  padding: 6px 0;
+  font-size: 0.9em;
+}
+
+.toc a:hover {
+  color: var(--text-accent);
+}
+
+.toc .toc-h2 {
+  padding-left: 10px;
+}
+
+.toc .toc-h3 {
+  padding-left: 20px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 1200px) {
+  .toc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+  
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+/* Buton pentru apariția/dispariția sidebar-ului pe mobile */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--interactive-accent);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-toggle {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+  .sidebar.active {
+    display: block;
+  }
 }
