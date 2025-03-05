@@ -1,6 +1,3 @@
----
----
-
 /* Tema inspirată de Obsidian Dark cu navigare îmbunătățită */
 
 /* Variabile de culoare */
@@ -26,6 +23,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+/* Text bolduit cu culoarea h1 */
+strong, b {
+  color: var(--h1-color);
+  font-weight: 700;
 }
 
 .container-lg {
@@ -71,6 +74,7 @@ body {
 .main-content {
   margin-left: 340px;
   padding: 30px;
+  padding-right: 320px; /* Spațiu pentru navigarea în document (TOC) */
   max-width: 1000px;
 }
 
@@ -211,6 +215,10 @@ th {
 @media screen and (max-width: 1200px) {
   .toc {
     display: none;
+  }
+  
+  .main-content {
+    padding-right: 30px; /* Resetează padding-ul când TOC dispare */
   }
 }
 
