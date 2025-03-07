@@ -16,9 +16,9 @@
   --h3-color: #ffffff;
   --border-color: #333;
   --code-background: #2d2d2d;
-  --section-bg-1: rgba(238, 108, 77, 0.05);
-  --section-bg-2: rgba(61, 158, 255, 0.05);
-  --section-bg-neutral: rgba(255, 255, 255, 0.02);
+  --section-bg-1: rgba(238, 108, 77, 0.1);
+  --section-bg-2: rgba(61, 158, 255, 0.1);
+  --section-bg-neutral: rgba(255, 255, 255, 0.05);
 }
 
 /* Stiluri generale */
@@ -122,6 +122,7 @@ h1 + p, h1 + ul, h1 + ol {
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
+  border-left: 3px solid var(--h1-color);
 }
 
 h2 + p, h2 + ul, h2 + ol {
@@ -129,6 +130,7 @@ h2 + p, h2 + ul, h2 + ol {
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
+  border-left: 3px solid var(--h2-color);
 }
 
 h3 + p, h3 + ul, h3 + ol {
@@ -136,6 +138,7 @@ h3 + p, h3 + ul, h3 + ol {
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
+  border-left: 3px solid var(--text-accent);
 }
 
 /* Liste */
@@ -258,11 +261,22 @@ th {
   color: var(--text-accent);
 }
 
+/* Stiluri distincte pentru nivelurile din TOC */
+.toc .toc-h1 {
+  color: var(--h1-color) !important;
+  font-weight: 700;
+  font-size: 1em;
+}
+
 .toc .toc-h2 {
+  color: var(--h2-color) !important;
+  font-weight: 600;
   padding-left: 10px;
 }
 
 .toc .toc-h3 {
+  color: #ffffff !important;
+  font-weight: 400;
   padding-left: 20px;
 }
 
