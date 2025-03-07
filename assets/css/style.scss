@@ -436,4 +436,55 @@ th {
   ul, ol {
     padding-left: 16px;
   }
+/* Adaugă acest cod la sfârșitul fișierului style.scss pentru a uniformiza fonturile */
+
+/* Uniformizarea dimensiunii fontului în tot conținutul */
+p, li, ul, ol, .main-content div {
+  font-size: 1.05rem !important;
+}
+
+/* Asigură-te că toate elementele din interiorul secțiunilor stilizate au aceeași dimensiune */
+h1 + p, h1 + ul, h1 + ol,
+h2 + p, h2 + ul, h2 + ol,
+h3 + p, h3 + ul, h3 + ol,
+h4 + p, h4 + ul, h4 + ol,
+h1 ~ p, h2 ~ p, h3 ~ p, h4 ~ p,
+h1 ~ ul, h2 ~ ul, h3 ~ ul, h4 ~ ul,
+h1 ~ ol, h2 ~ ol, h3 ~ ol, h4 ~ ol {
+  font-size: 1.05rem !important;
+}
+
+/* Uniformizarea stilului în listele nested */
+li > p, li > div {
+  font-size: 1.05rem !important;
+}
+
+/* Media query pentru dispozitive mobile - uniformizează și aici fonturile */
+@media screen and (max-width: 768px) {
+  p, li, ul, ol, .main-content div,
+  h1 + p, h1 + ul, h1 + ol,
+  h2 + p, h2 + ul, h2 + ol,
+  h3 + p, h3 + ul, h3 + ol,
+  h4 + p, h4 + ul, h4 + ol,
+  h1 ~ p, h2 ~ p, h3 ~ p, h4 ~ p,
+  h1 ~ ul, h2 ~ ul, h3 ~ ul, h4 ~ ul,
+  h1 ~ ol, h2 ~ ol, h3 ~ ol, h4 ~ ol,
+  li > p, li > div {
+    font-size: 1.15rem !important;
+  }
+}
+
+/* Media query pentru telefoane mici */
+@media screen and (max-width: 480px) {
+  p, li, ul, ol, .main-content div,
+  h1 + p, h1 + ul, h1 + ol,
+  h2 + p, h2 + ul, h2 + ol,
+  h3 + p, h3 + ul, h3 + ol,
+  h4 + p, h4 + ul, h4 + ol,
+  h1 ~ p, h2 ~ p, h3 ~ p, h4 ~ p,
+  h1 ~ ul, h2 ~ ul, h3 ~ ul, h4 ~ ul,
+  h1 ~ ol, h2 ~ ol, h3 ~ ol, h4 ~ ol,
+  li > p, li > div {
+    font-size: 1.2rem !important;
+  }
 }
