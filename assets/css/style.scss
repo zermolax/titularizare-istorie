@@ -1,7 +1,7 @@
 ---
 ---
 
-/* Tema inspirată de Obsidian Dark cu navigare îmbunătățită */
+@import "{{ site.theme }}";
 
 /* Variabile de culoare */
 :root {
@@ -35,6 +35,12 @@ body {
 strong, b {
   color: var(--h1-color);
   font-weight: 700;
+}
+
+/* Text italic cu culoare portocalie mai puțin intensă */
+em, i {
+  color: #f29e74; /* Portocaliu mai puțin intens decât h1 (ee6c4d) */
+  font-style: italic;
 }
 
 .container-lg {
@@ -121,6 +127,7 @@ h4 {
 p {
   margin-bottom: 1.2em;
   line-height: 1.7;
+  font-size: 1.05rem; /* Mărime de bază puțin mai mare pentru toate dispozitivele */
 }
 
 /* Secțiuni diferențiate cu fundal subtil */
@@ -163,6 +170,7 @@ ul, ol {
 
 li {
   margin-bottom: 8px;
+  line-height: 1.7; /* Aliniat cu paragrafele */
 }
 
 /* Stilizare specială pentru listele cu multe subpuncte */
@@ -251,6 +259,7 @@ th {
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 100;
 }
 
 .toc-title {
@@ -295,7 +304,40 @@ th {
   padding-left: 20px;
 }
 
-/* Mobile responsiveness */
+/* Buton pentru toggle sidebar pe mobile */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--h1-color);
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buton de închidere pentru sidebar */
+.sidebar-close {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  color: var(--text-normal);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media queries pentru layout responsive */
 @media screen and (max-width: 1200px) {
   .toc {
     display: none;
@@ -306,36 +348,51 @@ th {
   }
 }
 
+/* Media query pentru tablete și dispozitive mobile */
 @media screen and (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-    position: relative;
-    height: auto;
+  /* Afișează butonul de toggle pe mobile */
+  .sidebar-toggle {
+    display: flex;
   }
   
+  /* Sidebar complet pentru mobile */
+  .sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  /* Sidebar activ */
+  .sidebar.active {
+    display: block;
+  }
+  
+  /* Conținut principal când sidebar-ul este ascuns */
   .main-content {
     margin-left: 0;
+    width: 100%;
     padding: 20px;
   }
-}
+  
+  /* Stilul link-urilor din sidebar pentru mobile - touch friendly */
+  .sidebar a {
+    padding: 12px 15px;
+    margin: 4px 0;
+    font-size: 1.1rem;
+  }
 
-/* Buton pentru apariția/dispariția sidebar-ului pe mobile */
-.sidebar-toggle {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: var(--interactive-accent);
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-/* Media queries pentru dispozitive mobile */
-@media screen and (max-width: 768px) {
+  .sidebar-heading {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
   /* Mărește fontul pentru paragrafe pe mobile */
   p {
     font-size: 1.15rem;
@@ -354,16 +411,6 @@ th {
   h3 + p, h3 + ul, h3 + ol,
   h4 + p, h4 + ul, h4 + ol {
     padding: 18px;
-  }
-  
-  /* Mărește spațierea pentru conținut */
-  .main-content {
-    padding: 20px;
-  }
-  
-  /* Ajustează spacing-ul general pentru o mai bună lizibilitate */
-  body {
-    line-height: 1.8;
   }
 }
 
