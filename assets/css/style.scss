@@ -11,13 +11,13 @@
   --text-muted: #999;
   --text-accent: #7f9cf5;
   --interactive-accent: #7f6df2;
-  --h1-color: #ee6c4d;
-  --h2-color: #3d9eff;
+  --h1-color: #d9855a; /* Un portocaliu mai sobru, similar cu logoul Claude */
+  --h2-color: #6c9bd1; /* Un albastru mai puțin intens, în aceeași familie de culori */
   --h3-color: #ffffff;
   --border-color: #333;
   --code-background: #2d2d2d;
-  --section-bg-1: rgba(238, 108, 77, 0.1);
-  --section-bg-2: rgba(61, 158, 255, 0.1);
+  --section-bg-1: rgba(217, 133, 90, 0.1);
+  --section-bg-2: rgba(108, 155, 209, 0.1);
   --section-bg-neutral: rgba(255, 255, 255, 0.05);
 }
 
@@ -110,6 +110,13 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 1.2em;
+  color: #cccccc;
+  font-weight: 600;
+  font-style: italic;
+}
+
 /* Paragrafe diferențiate și aerisite */
 p {
   margin-bottom: 1.2em;
@@ -139,6 +146,14 @@ h3 + p, h3 + ul, h3 + ol {
   border-radius: 5px;
   margin-bottom: 1.5em;
   border-left: 3px solid var(--text-accent);
+}
+
+h4 + p, h4 + ul, h4 + ol {
+  background-color: var(--section-bg-neutral);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  border-left: 2px solid #cccccc;
 }
 
 /* Liste */
