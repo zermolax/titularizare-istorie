@@ -334,14 +334,59 @@ th {
   z-index: 1000;
 }
 
+/* Media queries pentru dispozitive mobile */
 @media screen and (max-width: 768px) {
-  .sidebar-toggle {
-    display: block;
+  /* Mărește fontul pentru paragrafe pe mobile */
+  p {
+    font-size: 1.15rem;
+    line-height: 1.8;
   }
-  .sidebar {
-    display: none;
+  
+  /* Mărește fontul pentru liste pe mobile */
+  li {
+    font-size: 1.15rem;
+    line-height: 1.8;
   }
-  .sidebar.active {
-    display: block;
+  
+  /* Ajustează elementele callout pentru mai mult spațiu și lizibilitate */
+  h1 + p, h1 + ul, h1 + ol,
+  h2 + p, h2 + ul, h2 + ol,
+  h3 + p, h3 + ul, h3 + ol,
+  h4 + p, h4 + ul, h4 + ol {
+    padding: 18px;
+  }
+  
+  /* Mărește spațierea pentru conținut */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* Ajustează spacing-ul general pentru o mai bună lizibilitate */
+  body {
+    line-height: 1.8;
+  }
+}
+
+/* Media queries pentru telefoane mai mici */
+@media screen and (max-width: 480px) {
+  /* Font și mai mare pentru ecrane foarte mici */
+  p, li {
+    font-size: 1.2rem;
+    line-height: 1.9;
+  }
+  
+  /* Mai mult spațiu între paragrafe pentru citire mai ușoară */
+  p {
+    margin-bottom: 1.5em;
+  }
+  
+  /* Ajustări suplimentare pentru spacing */
+  .main-content {
+    padding: 16px;
+  }
+  
+  /* Ajustează spațierea pentru liste pe ecrane mici */
+  ul, ol {
+    padding-left: 16px;
   }
 }
