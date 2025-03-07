@@ -13,9 +13,12 @@
   --interactive-accent: #7f6df2;
   --h1-color: #ee6c4d;
   --h2-color: #3d9eff;
-  --h3-color: #63c9a6;
+  --h3-color: #ffffff;
   --border-color: #333;
   --code-background: #2d2d2d;
+  --section-bg-1: rgba(238, 108, 77, 0.05);
+  --section-bg-2: rgba(61, 158, 255, 0.05);
+  --section-bg-neutral: rgba(255, 255, 255, 0.02);
 }
 
 /* Stiluri generale */
@@ -32,12 +35,6 @@ body {
 strong, b {
   color: var(--h1-color);
   font-weight: 700;
-}
-
-/* Text italic cu culoare portocalie mai puțin intensă */
-em, i {
-  color: #f29e74; /* Portocaliu mai puțin intens decât h1 (ee6c4d) */
-  font-style: italic;
 }
 
 .container-lg {
@@ -109,7 +106,36 @@ h2 {
 
 h3 {
   font-size: 1.4em;
-  color: var(--h3-color);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Paragrafe diferențiate și aerisite */
+p {
+  margin-bottom: 1.2em;
+  line-height: 1.7;
+}
+
+/* Secțiuni diferențiate cu fundal subtil */
+h1 + p, h1 + ul, h1 + ol {
+  background-color: var(--section-bg-1);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+h2 + p, h2 + ul, h2 + ol {
+  background-color: var(--section-bg-2);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+
+h3 + p, h3 + ul, h3 + ol {
+  background-color: var(--section-bg-neutral);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
 }
 
 /* Liste */
@@ -118,7 +144,26 @@ ul, ol {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+}
+
+/* Stilizare specială pentru listele cu multe subpuncte */
+li > ul, li > ol {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+/* Stilizare pentru liste cu simboluri diferite */
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
 }
 
 /* Cod și blocuri de cod */
@@ -187,6 +232,7 @@ th {
   border: 1px solid var(--border-color);
   max-height: 80vh;
   overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .toc-title {
