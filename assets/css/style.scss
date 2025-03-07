@@ -133,6 +133,7 @@ p {
 /* Secțiuni diferențiate cu fundal subtil */
 h1 + p, h1 + ul, h1 + ol {
   background-color: var(--section-bg-1);
+  font-size: 1.05rem !important;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
@@ -141,6 +142,7 @@ h1 + p, h1 + ul, h1 + ol {
 
 h2 + p, h2 + ul, h2 + ol {
   background-color: var(--section-bg-2);
+  font-size: 1.05rem !important;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
@@ -149,6 +151,7 @@ h2 + p, h2 + ul, h2 + ol {
 
 h3 + p, h3 + ul, h3 + ol {
   background-color: var(--section-bg-neutral);
+  font-size: 1.05rem !important;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
@@ -157,6 +160,7 @@ h3 + p, h3 + ul, h3 + ol {
 
 h4 + p, h4 + ul, h4 + ol {
   background-color: var(--section-bg-neutral);
+  font-size: 1.05rem !important;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 1.5em;
@@ -166,17 +170,20 @@ h4 + p, h4 + ul, h4 + ol {
 /* Liste */
 ul, ol {
   padding-left: 20px;
+  font-size: 1.05rem !important;
 }
 
 li {
   margin-bottom: 8px;
   line-height: 1.7; /* Aliniat cu paragrafele */
+  font-size: 1.05rem !important;
 }
 
 /* Stilizare specială pentru listele cu multe subpuncte */
 li > ul, li > ol {
   margin-top: 8px;
   margin-bottom: 12px;
+  font-size: 1.05rem !important;
 }
 
 /* Stilizare pentru liste cu simboluri diferite */
