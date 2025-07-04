@@ -3,7 +3,7 @@ layout: default
 title: 3 Geto-Dacii
 ---
 
-## 1. Prezentare Narativă Generală (Geto-dacii):
+# 1. Prezentare Narativă Generală (Geto-dacii):
 
 *   **Scop:** Introducere în lumea geto-dacilor, oferind o imagine de ansamblu asupra:
     *   Identității și localizării lor geografice.
@@ -17,7 +17,42 @@ title: 3 Geto-Dacii
         *   Axă cronologică (cu perioadele importante).
 *   **Timp estimat:** 1-2 ore.
 
-#### Introducere: Un popor enigmatic al Antichității
+<!-- PODCAST SECTION - START -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1); color: white;">
+    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="font-size: 2em; margin-right: 15px;">🎧</div>
+        <div>
+            <h3 style="margin: 0; font-size: 1.2em;">Podcast pentru această temă</h3>
+            <p style="margin: 5px 0 0 0; opacity: 0.9; font-size: 0.9em;">Ascultă podcastul pentru a îți consolida cunoștințele</p>
+        </div>
+    </div>
+    
+    <audio controls style="width: 100%; height: 40px; border-radius: 20px; margin-bottom: 10px;">
+        <source src="audio/podcast-tema-03.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+    
+    <!-- Disclaimer AI -->
+    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 12px; margin: 10px 0; border-left: 4px solid #FFA726;">
+        <div style="display: flex; align-items: flex-start; font-size: 0.85em;">
+            <div style="margin-right: 8px; font-size: 1.1em;">⚠️</div>
+            <div>
+                <strong>Disclaimer:</strong> Acest podcast a fost generat cu AI cu scopul de a recapitula și consolida informațiile obținute prin studiu personal și aprofundat. Informațiile sunt din surse verificate, dar pot exista greșeli de dicție sau, foarte rar, inexactități în date. Acest instrument este auxiliar studiului și nu se substituie acestuia.
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8em; opacity: 0.8; margin-top: 10px;">
+        <span>💡 Tip: Poți asculta în timp ce citești notele</span>
+        <a href="audio/tema-01.mp3" download style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 15px;">
+            📥 Descarcă
+        </a>
+    </div>
+</div>
+<!-- PODCAST SECTION - END -->
+
+
+# Introducere: Un popor enigmatic al Antichității
 
 Geto-dacii, ramura nordică a marelui neam al tracilor, au locuit în spațiul carpato-danubiano-pontic (teritoriul României de astăzi și zonele învecinate) în Antichitate, din mileniul I î.Hr. până în secolul al III-lea d.Hr. Istoria lor este reconstituită, în principal, pe baza *surselor arheologice* (urme materiale ale culturii lor) și a *surselor scrise externe* (autori greci și romani, care i-au menționat în diferite contexte). Geto-dacii nu au lăsat izvoare scrise proprii, ceea ce face ca istoria lor să fie, pe alocuri, fragmentară și supusă interpretărilor.
 
@@ -97,11 +132,9 @@ Geto-dacii, ramura nordică a marelui neam al tracilor, au locuit în spațiul c
 
 Geto-dacii au fost un popor important al Antichității, care a creat o civilizație originală în spațiul carpato-danubiano-pontic. Deși nu au lăsat izvoare scrise proprii, istoria lor poate fi reconstituită pe baza surselor arheologice și a mărturiilor autorilor greci și romani. Ei au avut o organizare politică complexă (de la triburi la regate), o religie specifică (în care un rol important îl juca zeul Zalmoxis), o artă remarcabilă (în special prelucrarea metalelor) și au întreținut relații (pașnice sau conflictuale) cu numeroase alte popoare. Confruntarea cu Imperiul Roman a marcat un moment crucial în istoria lor, ducând la cucerirea Daciei și la transformarea ei în provincie romană.
 
-## 2. Aprofundarea Subtemelor (abordare detaliată):
+# A. Etnogeneza și Perioada Timpurie (până în secolul al IV-lea î.Hr.):
 
-### A. Etnogeneza și Perioada Timpurie (până în secolul al IV-lea î.Hr.):
-
-#### 2.A.1 Structura detaliată a subtemei:
+## 2.A.1 Structura detaliată a subtemei:
 
 * ##### I. Etnogeneza geto-dacilor:
     *   **Tracii:** Contextul mai larg – localizare, triburi, caracteristici generale.
@@ -144,7 +177,7 @@ Geto-dacii au fost un popor important al Antichității, care a creat o civiliza
 * **IV. Primele mențiuni în izvoarele scrise:**
   * Herodot - *Istorii*: Getii, cei mai viteji si cei mai drepti dintre traci.
 
-#### 2.A.2 Obiective de învățare specifice (exemple):
+## 2.A.2 Obiective de învățare specifice (exemple):
 
 **1. Să pot explica procesul de formare a geto-dacilor.**
 
@@ -175,7 +208,7 @@ Herodot, un istoric grec din secolul al V-lea î.Hr., este primul autor antic ca
 
 Am încheiat și această narațiune. Putem continua cu narațiunea pentru relațiile cu lumea greacă.
 
-**2.A.3 Metode de studiu:**
+## 2.A.3 Metode de studiu:
 
 *   **Lectură aprofundată:** Accent pe *continuitate și schimbare* (ex: evoluția de la cultura Hallstatt la cultura geto-dacică), pe *influențele externe* (scitice, celtice) și pe *interpretările* diferite ale surselor arheologice.
 *   **Hărți:**
@@ -190,9 +223,9 @@ Am încheiat și această narațiune. Putem continua cu narațiunea pentru rela�
 *  **Surse primare:**
   *  Herodot, *Istorii* (cartea a IV-a)
 
-### B. Relațiile cu lumea greacă (secolele VII-IV î.Hr.):**
+# B. Relațiile cu lumea greacă (secolele VII-IV î.Hr.):**
 
-**2.B.1 Structura detaliată a subtemei:**
+## 2.B.1 Structura detaliată a subtemei:
 
 *   **I. Colonizarea greacă pe țărmul Mării Negre:**
     *   **Context:** Colonizarea greacă (secolele VIII-VI î.Hr.) – cauze, direcții (vezi tema anterioară).
@@ -231,7 +264,7 @@ Am încheiat și această narațiune. Putem continua cu narațiunea pentru rela�
     * Tucidide
     * Strabon
 
-#### 2.B.2 Obiective de învățare specifice (exemple):
+## 2.B.2 Obiective de învățare specifice (exemple):
 
 **1. Să pot enumera principalele colonii grecești de pe țărmul vestic al Mării Negre și să precizez metropolele lor.**
 
@@ -266,10 +299,7 @@ Opera lui Herodot este importanta pentru ca:
 * Plaseaza geto-dacii in contextul mai larg al lumii antice, in relatie cu alte popoare (persi, sciti, traci).
 * A influentat perceptia ulterioara asupra geto-dacilor.
 
-Am încheiat și această narațiune. Putem continua cu Regatul lui Burebista.
-
-
-**2.B.3 Metode de studiu:**
+## 2.B.3 Metode de studiu:*
 
 *   **Lectură aprofundată:** Accent pe *interacțiunile* dintre geto-daci și greci, pe *schimburile* economice și culturale, pe *evoluția* relațiilor (de la pace la conflict).
 *   **Hărți:**
@@ -284,9 +314,9 @@ Am încheiat și această narațiune. Putem continua cu Regatul lui Burebista.
 *   **Surse primare:**
     *   Herodot, *Istorii* (cartea a IV-a) – *obligatoriu*.
 
-### C. Regatul lui Burebista (secolul I î.Hr.):
+# C. Regatul lui Burebista (secolul I î.Hr.):
 
-**2.C.1 Structura detaliată a subtemei:**
+## 2.C.1 Structura detaliată a subtemei:
 
 *   **I. Contextul istoric:**
     *   Secolul I î.Hr. – o perioadă de expansiune a Republicii Romane în Balcani.
@@ -321,7 +351,7 @@ Am încheiat și această narațiune. Putem continua cu Regatul lui Burebista.
     *   **Asasinarea lui Burebista (44 î.Hr.):** Probabil, în urma unei conspirații a aristocrației nemulțumite de centralizarea puterii.
     *   **Destrămarea statului:** Regatul s-a împărțit în mai multe formațiuni politice mai mici (patru, apoi cinci, conform lui Strabon).
 
-#### 2.C.2 Obiective de învățare specifice (exemple):
+## 2.C.2 Obiective de învățare specifice (exemple):
 
 **1. Să pot explica contextul în care Burebista a ajuns la putere.**
 
@@ -361,7 +391,7 @@ Analiza unui fragment din Strabon ar trebui să evidențieze:
 *   **Stilul lui Strabon:** Clar, concis, descriptiv.
 *   **Importanța fragmentului:** O sursă valoroasă despre Burebista și despre statul geto-dac, dar care trebuie interpretată critic (Strabon nu a fost contemporan cu Burebista și a folosit surse indirecte).
 
-**2.C.3 Metode de studiu:**
+## **2.C.3 Metode de studiu:**
 
 *   **Lectură aprofundată:** Accent pe *sursele istorice* (Strabon, Iordanes), pe *interpretările* diferite ale acestor surse, pe *problemele controversate* (ex: întinderea exactă a statului lui Burebista, rolul lui Deceneu, natura religiei geto-dacilor).
 *   **Hărți:**
@@ -377,9 +407,9 @@ Analiza unui fragment din Strabon ar trebui să evidențieze:
 * **Surse primare:**
   * Strabon, *Geografia* (cartea a VII-a) - obligatoriu
 
-### D. Perioada dintre Burebista și Decebal (secolul I d.Hr.):
+# D. Perioada dintre Burebista și Decebal (secolul I d.Hr.):
 
-**2.D.1 Structura detaliată a subtemei:**
+## **2.D.1 Structura detaliată a subtemei:**
 
 *   **I. Fragmentarea politică:**
     *   Destrămarea statului lui Burebista: cauze (asasinarea lui Burebista, nemulțumirea aristocrației, factori externi).
@@ -401,7 +431,7 @@ Analiza unui fragment din Strabon ar trebui să evidențieze:
         *   **Comerț:** Relații comerciale (în special prin intermediul coloniilor grecești).
     *   **Influența romană:** Treptată, în special în zonele de graniță (ex: Dobrogea).
 
-#### 2.D.2 Obiective de învățare specifice (exemple):
+## 2.D.2 Obiective de învățare specifice (exemple):
 
 Să creăm o narațiune care să integreze obiectivele de învățare pentru subtema "Perioada dintre Burebista și Decebal (secolul I d.Hr.)":
 
@@ -445,7 +475,7 @@ Este important să reținem că aceste localizări sunt aproximative.
 
 Am incheiat si aceasta naratiune. Putem trece la domnia lui Decebal.
 
-**2.D.3 Metode de studiu:**
+## **2.D.3 Metode de studiu:**
 
 *   **Lectură aprofundată:** Accent pe *sursele istorice* (romane, în special), pe *interpretările* diferite ale acestor surse, pe *problemele controversate* (ex: localizarea exactă a regatelor geto-dace, natura relațiilor cu Roma).
 *   **Hărți:**
@@ -461,9 +491,9 @@ Am incheiat si aceasta naratiune. Putem trece la domnia lui Decebal.
 * **Surse primare:**
     * Fragmente relevante din autorii romani (ex: Suetonius, Tacitus, Dio Cassius, Plutarh).
 
-### E. Regatul lui Decebal (87-106 d.Hr.)
+# E. Regatul lui Decebal (87-106 d.Hr.)
 
-**2.E.1 Structura detaliată a subtemei "Regatul lui Decebal":**
+## **2.E.1 Structura detaliată a subtemei "Regatul lui Decebal":**
 
 *   **I. Contextul istoric:**
     *   Secolul I d.Hr. – expansiunea Imperiului Roman continuă.
@@ -510,7 +540,7 @@ Am incheiat si aceasta naratiune. Putem trece la domnia lui Decebal.
         *   Construirea de orașe, drumuri, castre romane.
         *   Romanizarea Daciei (proces complex, care a dus la formarea poporului român și a limbii române).
 
-#### 2.E.2 Obiective de învățare specifice (exemple):
+## 2.E.2 Obiective de învățare specifice (exemple):
 
 **1. Să pot explica contextul în care Decebal a ajuns la putere.**
 
@@ -550,7 +580,7 @@ Reprezentarile de pe Columna si de pe Monument sunt surse *iconografice*, nu scr
 *   **Columna lui Traian (Roma):** Un monument comemorativ, construit din ordinul lui Traian, pentru a celebra victoria romană în războaiele daco-romane. Coloana este acoperită cu un basorelief în spirală, care ilustrează scene din cele două războaie: pregătirile de război, traversarea Dunării, bătălii, asedii, discursurile lui Traian, supunerea dacilor, sinuciderea lui Decebal. Columna este o sursă importantă, dar trebuie interpretată critic, deoarece are un caracter propagandistic (glorifică victoria romană și prezintă o imagine idealizată a armatei romane).
 *   **Monumentul de la Adamclisi (Tropaeum Traiani):** Un monument comemorativ roman, construit în Dobrogea, pentru a celebra victoria romană de la Adamclisi (din primul război daco-roman). Monumentul a fost parțial distrus, dar au fost recuperate metope (plăci sculptate) care ilustrează scene de luptă: soldați romani luptând împotriva dacilor, bastarnilor și sarmaților. Spre deosebire de Columna, monumentul de la Adamclisi prezintă o imagine mai realistă a războiului, cu scene de violență și cruzime.
 
-**2.E.3 Metode de studiu:**
+## **2.E.3 Metode de studiu:**
 
 *   **Lectură aprofundată:** Accent pe *sursele istorice* (Dio Cassius, Columna lui Traian, monumentul de la Adamclisi), pe *interpretările* diferite ale acestor surse, pe *problemele controversate* (ex: numărul exact al soldaților implicați în războaie, amploarea rezistenței dacice).
 *   **Hărți:**
@@ -567,9 +597,9 @@ Reprezentarile de pe Columna si de pe Monument sunt surse *iconografice*, nu scr
     *   Columna lui Traian (imagini, descrieri) – *obligatoriu*.
     *   Monumentul de la Adamclisi (imagini, descrieri).
 
-### F. Cultura si civilizația geto-dacilor.
+# F. Cultura si civilizația geto-dacilor.
 
-**2.F.1 Structura detaliată a subtemei:**
+## **2.F.1 Structura detaliată a subtemei:**
 
 *   **I. Limba:**
     *   Limba geto-dacilor: o limbă indo-europeană, din ramura tracă.
@@ -638,7 +668,7 @@ Reprezentarile de pe Columna si de pe Monument sunt surse *iconografice*, nu scr
         *   Nu avem prea multe informații detaliate.
         *   Reconstituiri pe baza surselor arheologice și a analogiilor cu alte popoare.
 
-#### 2.F.2 Obiective de învățare specifice (exemple):
+## 2.F.2 Obiective de învățare specifice (exemple):
 
 **1. Să pot descrie limba geto-dacilor și să explic de ce nu s-au păstrat texte scrise în această limbă.**
 
@@ -680,10 +710,7 @@ Diferentele pot fi explicate prin:
 *    **Sursele:** Herodot si Strabon au folosit surse diferite. Herodot s-a bazat, probabil, pe relatarile grecilor din coloniile de la Marea Neagra, in timp ce Strabon a avut acces si la surse romane.
 *   **Perspectiva:** Herodot a scris dintr-o perspectiva greaca, incercand sa inteleaga religia geto-dacilor prin analogie cu elemente din cultura greaca. Strabon a scris dintr-o perspectiva romana, fiind interesat de organizarea statului dac.
 
-Am încheiat și această narațiune. Putem trece la sinteză și consolidare.
-
-
-**2.F.3 Metode de studiu:**
+## **2.F.3 Metode de studiu:**
 
 *   **Lectură aprofundată:** Accent pe *interpretările* diferite ale surselor arheologice și scrise, pe *problemele controversate* (ex: natura exactă a religiei geto-dace, rolul lui Zalmoxis, gradul de centralizare a statului dac).
 *   **Hărți:**
@@ -699,8 +726,7 @@ Am încheiat și această narațiune. Putem trece la sinteză și consolidare.
     *   Imagini cu obiecte de artă geto-dacă (tezaure, ceramică, etc.).
     *   Reconstituiri ale cetăților dacice.
 
-
-## 3. Sinteza și consolidare:
+# 3. Sinteza și consolidare:
 
 **1. Etnogeneză și Identitate:**
 
