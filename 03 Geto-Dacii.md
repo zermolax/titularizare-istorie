@@ -195,8 +195,6 @@ Geto-dacii se ocupau, în principal, cu *agricultura*. Cultivau cereale (grâu, 
 
 Herodot, un istoric grec din secolul al V-lea î.Hr., este primul autor antic care îi menționează pe geți. În cartea a IV-a a *Istoriilor* sale, el descrie campania regelui persan Darius I împotriva sciților (514/513 î.Hr.). Herodot spune că geții, "cei mai viteji și cei mai drepți dintre traci", au fost singurii dintre traci care i s-au împotrivit lui Darius. Deși au fost învinși, rezistența lor a arătat curajul și spiritul de independență al geților. Herodot oferă și câteva informații despre religia geților: ei credeau în nemurirea sufletului și îl venerau pe Zalmoxis (pe care Herodot îl consideră un fost sclav al lui Pitagora, care și-ar fi înșelat compatrioții, pretinzând că este zeu – o interpretare greșită, probabil). Herodot menționează și un obicei al geților (controversat): trimiterea unui sol la Zalmoxis, prin aruncarea acestuia în sulițe.
 
-Am încheiat și această narațiune. Putem continua cu narațiunea pentru relațiile cu lumea greacă.
-
 ## 2.A.3 Metode de studiu:
 
 *   **Lectură aprofundată:** Accent pe *continuitate și schimbare* (ex: evoluția de la cultura Hallstatt la cultura geto-dacică), pe *influențele externe* (scitice, celtice) și pe *interpretările* diferite ale surselor arheologice.
@@ -211,6 +209,19 @@ Am încheiat și această narațiune. Putem continua cu narațiunea pentru rela�
     *   Etnogeneză, traci, geto-daci, trib, uniune tribală, tarabostes/pileati, comati, cultura Hallstatt, ceramică, tezaur.
 *  **Surse primare:**
   *  Herodot, *Istorii* (cartea a IV-a)
+
+<div class="donate-section" style="text-align: center; margin: 2rem 0; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #13C3FF;">
+  <h4 style="margin-bottom: 1rem; color: #333;">📚 Îți sunt utile aceste resurse?</h4>
+  <p style="margin-bottom: 1.5rem; color: #666; font-size: 0.95em;">
+    Dacă aceste materiale te ajută, poți să îmi susții munca cu o donație simbolică. 
+    Toate resursele rămân gratuite pentru toată lumea! ☕
+  </p>
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+  <script type='text/javascript'>
+    kofiwidget2.init('Susține proiectul', '#13C3FF', 'A0A21HHP2W');
+    kofiwidget2.draw();
+  </script>
+</div>
 
 # B. Relațiile cu lumea greacă (secolele VII-IV î.Hr.):**
 
