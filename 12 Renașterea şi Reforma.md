@@ -7,6 +7,30 @@ title: Lumea greacă (secolele al VI-lea – al IV-lea î.Hr.)
 
 Renașterea și Reforma, două mișcări majore care au marcat istoria Europei între secolele XIV și XVII, au transformat profund modul în care oamenii gândeau, credeau, se exprimau artistic și se raportau la lume și la divinitate. Deși diferite ca manifestare – Renașterea fiind preponderent culturală și artistică, iar Reforma religioasă – ele au avut în comun o contestare a autorității medievale, o dorință de înnoire și o deschidere către noi orizonturi.
 
+<!-- PODCAST SECTION - START -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1); color: white;">
+    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+        <div style="font-size: 2em; margin-right: 15px;">🎧</div>
+        <div>
+            <h3 style="margin: 0; font-size: 1.2em;">Ascultă podcastul pentru a îți consolida cunoștințele</h3>
+        </div>
+    </div>
+        <audio controls style="width: 100%; height: 40px; border-radius: 20px; margin-bottom: 10px;">
+        <source src="audio/podcast-tema-12.mp3" type="audio/mpeg">
+        Browser-ul tău nu suportă redarea audio.
+    </audio>
+        <!-- Disclaimer AI -->
+    <div style="background: rgba(255,255,255,0.1); border-radius: 10px; padding: 12px; margin: 10px 0; border-left: 4px solid #FFA726;">
+        <div style="display: flex; align-items: flex-start; font-size: 0.85em;">
+            <div style="margin-right: 8px; font-size: 1.1em;">⚠️</div>
+            <div>
+                <strong>Atenție!:</strong> Acest podcast a fost generat cu AI cu scopul de a recapitula și consolida informațiile obținute prin studiu personal și aprofundat. Informațiile sunt din surse verificate, dar pot exista greșeli de dicție sau, foarte rar, inexactități în date. Acest instrument este auxiliar studiului și nu se substituie acestuia.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PODCAST SECTION - END -->
+
 **Concepte Cheie:**
 
 *   **Renaștere:** Mișcare culturală, artistică și intelectuală, care a început în Italia (secolele XIV-XV) și s-a răspândit apoi în restul Europei. A marcat o "renaștere" a interesului pentru cultura clasică (greco-romană), o afirmare a valorilor umane (umanismul) și o înflorire a artelor și științelor.
