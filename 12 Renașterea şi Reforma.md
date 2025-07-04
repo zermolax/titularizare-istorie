@@ -269,9 +269,6 @@ Analiza unei opere de artă renascentistă ar trebui să evidențieze:
 *   **Semnificația:** Ce mesaj transmite opera?
 *   **Importanța:** De ce este considerată această operă o capodoperă a Renașterii?
 
-Am încheiat detalierea și narațiunea pentru subtema "Umanismul și Renașterea". Urmează subtema "Reforma".
-
-
 ## 2.A.3 Metode de studiu:**
 
 *   **Lectură aprofundată:** Accent pe *transformările* culturale, artistice, științifice din perioada Renașterii, pe *legătura* dintre Umanism și Renaștere, pe *impactul* Renașterii asupra societății europene.
@@ -283,7 +280,19 @@ Am încheiat detalierea și narațiunea pentru subtema "Umanismul și Renaștere
     *   Fragmente din operele umaniștilor (ex: Petrarca, Erasmus din Rotterdam, Machiavelli, Thomas Morus).
     *   Imagini cu opere de artă renascentistă.
     * Documente ale epocii.
-
+      
+<div class="donate-section" style="text-align: center; margin: 2rem 0; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #13C3FF;">
+  <h4 style="margin-bottom: 1rem; color: #333;">📚 Îți sunt utile aceste resurse?</h4>
+  <p style="margin-bottom: 1.5rem; color: #666; font-size: 0.95em;">
+    Dacă aceste materiale te ajută, poți să îmi susții munca cu o donație simbolică. 
+    Toate resursele rămân gratuite pentru toată lumea! ☕
+  </p>
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+  <script type='text/javascript'>
+    kofiwidget2.init('Susține proiectul', '#13C3FF', 'A0A21HHP2W');
+    kofiwidget2.draw();
+  </script>
+</div>
 
 # B. Reforma:
 
